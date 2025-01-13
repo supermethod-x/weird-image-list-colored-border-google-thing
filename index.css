@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 1rem;
+
+  font-size: 75%;
+  font-family: system-ui, sans-serif;
+
+  background-color: white;
+}
+
+ul {
+  border: 1px solid mediumspringgreen;
+  border-radius: 5px;
+
+  padding: 1rem;
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid salmon;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+li span {
+  margin-left: 1rem;
+}
